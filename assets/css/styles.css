@@ -1,0 +1,63 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Oswald&family=Ubuntu&display=swap'); 
+
+body {
+    background-color: indianred;
+}
+
+ .principal {
+	max-width: 200px;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: repeat(4, 1fr);
+ 	margin: 50px auto;
+  	padding: 40px;
+  	border-radius: 10px;
+    background-color: linen;
+}
+
+.container-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    color: linen;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.paragrafo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+.botao {
+    align-self: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    width: 100px;
+    margin: 0 auto;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: lightslategray;
+    font-weight: bold;
+}
+
+.pausado {
+    color: crimson;
+}
